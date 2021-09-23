@@ -1,0 +1,14 @@
+// Notes: Dynamic Typing Test
+//  1) When user pressed start button then quickly active the textarea else disabled it and vice-vers.
+
+//  2) Every time a new set of words/text on top of the textarea will appear whenever a user pressed the start button.
+
+//  3) Get the time and change the button text to done.
+
+//  4) Get the end time when the user clicked on the done button. Find the total time taken.
+
+//  5) Find the lenght of the words in each array.
+
+//  6) Find the speed of the user and show it on top of the textarea when user clicked on the Done button.
+
+//  7) In the End, call the compareWords function and find out how many of the words are matching and how many not. Display the result on the top of the textarea with speed.
