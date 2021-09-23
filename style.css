@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    display: flex;
+   position: absolute;
+   top: 20px;
+   left: 30px;
+    background-color: #111111;
+}
+.logo_heading{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 35px;
+    color: #646669;
+}
+svg{
+   fill: #E2B714;
+}
+.mainDiv
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 60rem;
+    height: 100vh;
+    
+}
+.centerDiv .heading_one{
+    text-transform: capitalize;
+    color: #E2B714;
+    font-size: 2.1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.centerDiv .heading_two{
+    margin-bottom: 4rem;
+    text-transform: capitalize;
+    color: #646669;
+    font-size: 2.1rem;
+    text-align: center;
+}
+.centerDiv h2{
+    text-align: center;
+}
+.centerDiv textarea{
+   background-color: #191919;
+   border: 2px solid #2A2A2A;
+   color: #646669;
+   border-radius: 8px;
+   font-size: 1.5rem;
+   
+}
+/* .centerDiv textarea[placeholder] {
+    
+    
+} */
+
+.mainbtn{
+    padding: 10px 50px;
+    border: 2px solid #2A2A2A;
+    background-color: #E2B714;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+.mainbtn:hover{
+    background-color: #e2b51400;
+    color: #EEEEEE;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+.last_heading{
+        color: #646669;
+        position: absolute;
+        bottom: 10px;
+        font-size: 1rem;
+    }
+
+.demo_msg{
+    max-width: 60%;
+    max-height: 300px;
+    color: #646669;
+}
+
+@media (max-width: 1200px) {
+    .centerDiv textarea{
+        max-width: 40rem;  
+     }
+
+     .logo_heading{
+        font-size: 30px;
+    }
+
+    svg{
+       max-width: 3rem;
+     }
+}
+@media (max-width: 700px) {
+    .centerDiv textarea{
+        max-width: 20rem;  
+     }
+}
+@media (max-width: 500px) {
+    .heading_one, .heading_two{
+        font-size: .5rem;
+    }
+}
